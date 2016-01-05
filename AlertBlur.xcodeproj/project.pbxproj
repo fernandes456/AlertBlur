@@ -13,6 +13,7 @@
 		C2855AA61BD4424A007F05DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2855AA41BD4424A007F05DB /* Main.storyboard */; };
 		C2855AA81BD4424A007F05DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2855AA71BD4424A007F05DB /* Assets.xcassets */; };
 		C2855AAB1BD4424A007F05DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2855AA91BD4424A007F05DB /* LaunchScreen.storyboard */; };
+		C2855AB71BD4527E007F05DB /* UIAlertController+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C2855AB61BD4527E007F05DB /* UIAlertController+Blur.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C2855AA71BD4424A007F05DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2855AAA1BD4424A007F05DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2855AAC1BD4424A007F05DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2855AB51BD4527E007F05DB /* UIAlertController+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Blur.h"; sourceTree = "<group>"; };
+		C2855AB61BD4527E007F05DB /* UIAlertController+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Blur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,13 @@
 				C2855A9F1BD4424A007F05DB /* AppDelegate.m */,
 				C2855AA11BD4424A007F05DB /* ViewController.h */,
 				C2855AA21BD4424A007F05DB /* ViewController.m */,
-				C2855AA41BD4424A007F05DB /* Main.storyboard */,
 				C2855AA71BD4424A007F05DB /* Assets.xcassets */,
-				C2855AA91BD4424A007F05DB /* LaunchScreen.storyboard */,
 				C2855AAC1BD4424A007F05DB /* Info.plist */,
+				C2855AA91BD4424A007F05DB /* LaunchScreen.storyboard */,
+				C2855AA41BD4424A007F05DB /* Main.storyboard */,
 				C2855A9B1BD4424A007F05DB /* Supporting Files */,
+				C2855AB51BD4527E007F05DB /* UIAlertController+Blur.h */,
+				C2855AB61BD4527E007F05DB /* UIAlertController+Blur.m */,
 			);
 			path = AlertBlur;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2855AA31BD4424A007F05DB /* ViewController.m in Sources */,
+				C2855AB71BD4527E007F05DB /* UIAlertController+Blur.m in Sources */,
 				C2855AA01BD4424A007F05DB /* AppDelegate.m in Sources */,
 				C2855A9D1BD4424A007F05DB /* main.m in Sources */,
 			);
