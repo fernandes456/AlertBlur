@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24811BC1C90CAB500FF0B9F /* libobjc.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C24811BB1C90CAB500FF0B9F /* libobjc.A.tbd */; };
 		C2855A9D1BD4424A007F05DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2855A9C1BD4424A007F05DB /* main.m */; };
 		C2855AA01BD4424A007F05DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2855A9F1BD4424A007F05DB /* AppDelegate.m */; };
 		C2855AA31BD4424A007F05DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2855AA21BD4424A007F05DB /* ViewController.m */; };
 		C2855AA61BD4424A007F05DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2855AA41BD4424A007F05DB /* Main.storyboard */; };
 		C2855AA81BD4424A007F05DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2855AA71BD4424A007F05DB /* Assets.xcassets */; };
 		C2855AAB1BD4424A007F05DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2855AA91BD4424A007F05DB /* LaunchScreen.storyboard */; };
-		C2855AB71BD4527E007F05DB /* UIAlertController+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C2855AB61BD4527E007F05DB /* UIAlertController+Blur.m */; settings = {ASSET_TAGS = (); }; };
+		C2855AB71BD4527E007F05DB /* UIAlertController+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C2855AB61BD4527E007F05DB /* UIAlertController+Blur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C24811BB1C90CAB500FF0B9F /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = usr/lib/libobjc.A.tbd; sourceTree = SDKROOT; };
 		C2855A981BD4424A007F05DB /* AlertBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertBlur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2855A9C1BD4424A007F05DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2855A9E1BD4424A007F05DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24811BC1C90CAB500FF0B9F /* libobjc.A.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +48,7 @@
 		C2855A8F1BD4424A007F05DB = {
 			isa = PBXGroup;
 			children = (
+				C24811BB1C90CAB500FF0B9F /* libobjc.A.tbd */,
 				C2855A9A1BD4424A007F05DB /* AlertBlur */,
 				C2855A991BD4424A007F05DB /* Products */,
 			);
@@ -304,6 +308,7 @@
 				C2855AB11BD4424A007F05DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
